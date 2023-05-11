@@ -1,0 +1,14 @@
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\bin\Debug\net6.0\WebAppMVC.BLL.deps.json
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\bin\Debug\net6.0\WebAppMVC.BLL.runtimeconfig.json
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\bin\Debug\net6.0\WebAppMVC.BLL.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\bin\Debug\net6.0\WebAppMVC.BLL.pdb
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.csproj.AssemblyReference.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.AssemblyInfoInputs.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.AssemblyInfo.cs
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\refint\WebAppMVC.BLL.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.pdb
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\WebAppMVC.BLL.genruntimeconfig.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.BLL\obj\Debug\net6.0\ref\WebAppMVC.BLL.dll

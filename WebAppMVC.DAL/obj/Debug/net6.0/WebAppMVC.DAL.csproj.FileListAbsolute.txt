@@ -1,0 +1,17 @@
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.csproj.AssemblyReference.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.AssemblyInfoInputs.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.AssemblyInfo.cs
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\bin\Debug\net6.0\WebAppMVC.DAL.deps.json
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\bin\Debug\net6.0\WebAppMVC.DAL.runtimeconfig.json
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\bin\Debug\net6.0\WebAppMVC.DAL.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\bin\Debug\net6.0\WebAppMVC.DAL.pdb
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\bin\Debug\net6.0\WebAppMVC.Core.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\bin\Debug\net6.0\WebAppMVC.Core.pdb
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.csproj.CopyComplete
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\refint\WebAppMVC.DAL.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.pdb
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\WebAppMVC.DAL.genruntimeconfig.cache
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC.DAL\obj\Debug\net6.0\ref\WebAppMVC.DAL.dll
