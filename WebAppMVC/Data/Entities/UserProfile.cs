@@ -9,13 +9,13 @@ namespace WebAppMVC.Data.Entities
     {
         public int Id { get; set; }
 
-        
+        [Required]
         [StringLength(20, ErrorMessage = "Name length can't be more than 20.")]
         [Display(Name = "First Name")]
         public string? FirstName { get; set; }
 
 
-        
+        [Required]
         [StringLength(20, ErrorMessage = "Name length can't be more than 20.")]
         [DisplayName("Last Name")]
         public string? LastName { get; set; }

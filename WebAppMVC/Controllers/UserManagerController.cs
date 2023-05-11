@@ -62,7 +62,7 @@ namespace WebAppMVC.Controllers
                 if(ModelState.IsValid)
                 {
                      await _userRepo.Create(entity);
-                     await _userRepo.Save();
+                     
                     return RedirectToAction(nameof(Index));
                 }
             }
@@ -91,7 +91,7 @@ namespace WebAppMVC.Controllers
                 if (ModelState.IsValid)
                 {
                     _userRepo.Edit(entity);
-                    _userRepo.Save();
+                  
                     return RedirectToAction(nameof(Index));
                 }
                 
@@ -119,7 +119,7 @@ namespace WebAppMVC.Controllers
             {
                 var res = await _userRepo.Details(id);
                 await _userRepo.Delete(id);
-                await _userRepo.Save();
+             
                 return RedirectToAction(nameof(Index));
             }
             catch (InvalidDataException) 

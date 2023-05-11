@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System.Configuration;
+using WebAppMVC;
 using WebAppMVC.Data.Context;
 using WebAppMVC.Data.Entities;
 using WebAppMVC.Extentions;
@@ -45,6 +46,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+app.UseErrorLogging();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

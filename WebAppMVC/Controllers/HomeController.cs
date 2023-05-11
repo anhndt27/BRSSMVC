@@ -20,6 +20,8 @@ namespace WebAppMVC.Controllers
 
         public IActionResult Privacy()
         {
+            List<int> list = new List<int>() { 1,2};
+            Console.WriteLine(list[3]);
             return View();
         }
 

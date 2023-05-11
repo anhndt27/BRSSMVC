@@ -9,7 +9,7 @@ namespace WebAppMVC.Data.Interface
         Task Edit(UserProfile userProfile);
         Task Delete(int? id);
         Task Create(UserProfile entity);
-        Task Save();
+    
         
     }
 }

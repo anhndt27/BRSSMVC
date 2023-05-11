@@ -79,9 +79,6 @@ namespace WebAppMVC.Data.Repository
             GC.SuppressFinalize(this);
         }
 
-        public async Task Save()
-        { 
-           await _context.SaveChangesAsync();
-        }
+        
     }
 }
