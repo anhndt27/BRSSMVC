@@ -46,8 +46,17 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-
 app.UseErrorLogging();
+app.Use(async (context, next) =>
+{
+    await next();
+
+    if (context.Response.StatusCode != 200)
+    {
+        context.Response.Redirect("/Home/Error");
+        context.Response.ContentLength = 0;
+    }
+});
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

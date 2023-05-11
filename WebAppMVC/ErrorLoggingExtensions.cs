@@ -1,4 +1,7 @@
-﻿namespace WebAppMVC
+﻿using Microsoft.AspNetCore.Http;
+using System.Net;
+
+namespace WebAppMVC
 {
     public static class ErrorLoggingExtensions
     {
@@ -18,17 +21,13 @@
         {
             try
             {
-                if(context.Response.StatusCode != 200)
-                {
-                    context.Request.Path = "/Home/Error";
-                }
+               
                 await _next(context);
             }
             catch (Exception e)
             {
-                System.Diagnostics.Debug.WriteLine($"Error: {e.Message}");
-                context.Request.Path = "/Home/Error";
-                throw;
+                Console.WriteLine(e.StackTrace.ToString());
+                context.Response.Redirect("/Home/Error");
             }
         }
     }
