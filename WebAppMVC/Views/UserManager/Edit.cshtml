@@ -1,16 +1,16 @@
 ﻿@model WebAppMVC.Data.Entities.UserProfile
 
 @{
-    ViewData["Title"] = "EditUser";
+    ViewData["Title"] = "Edit";
 }
 
-<h1>EditUser</h1>
+<h1>Edit</h1>
 
 <h4>UserProfile</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="EditUser">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">

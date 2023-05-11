@@ -38,9 +38,9 @@ namespace WebAppMVC.Controllers
         }
 
         // GET: UserManagerController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            var UserProfile = _userRepo.Details(id);
+            var UserProfile = await _userRepo.Details(id);
             return View(UserProfile);
         }
 
@@ -55,17 +55,16 @@ namespace WebAppMVC.Controllers
         // POST: UserManagerController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public  ActionResult Create(UserProfile entity)
+        public  async Task<ActionResult> Create(UserProfile entity)
         {
             try
             {
                 if(ModelState.IsValid)
                 {
-                     _userRepo.Create(entity);
-                     _userRepo.Save();
+                     await _userRepo.Create(entity);
+                     await _userRepo.Save();
                     return RedirectToAction(nameof(Index));
                 }
-                
             }
             catch
             {
@@ -76,10 +75,10 @@ namespace WebAppMVC.Controllers
         }
 
         // GET: UserManagerController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
-            var UserProfile = _userRepo.Details(id);
-            return View(UserProfile);
+            var UserProfile = await _userRepo.Details(id);
+            return View(UserProfile);   
         }
 
         // POST: UserManagerController/Edit/5
@@ -95,32 +94,32 @@ namespace WebAppMVC.Controllers
                     _userRepo.Save();
                     return RedirectToAction(nameof(Index));
                 }
-                return View(entity);
+                
             }
             catch
             {
-                return View();
+                ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists see your system administrator.");
             }
             return View(entity);
         }
 
         // GET: UserManagerController/Delete/5
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            var userProfile = _userRepo.Details(id);
+            var userProfile = await _userRepo.Details(id);
             return View(userProfile);
         }
 
         // POST: UserManagerController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int? id)
+        public async Task<ActionResult> Delete(int? id)
         {
             try
             {
-                _userRepo.Details(id);
-                _userRepo.Delete(id);
-                _userRepo.Save();
+                var res = await _userRepo.Details(id);
+                await _userRepo.Delete(id);
+                await _userRepo.Save();
                 return RedirectToAction(nameof(Index));
             }
             catch (InvalidDataException) 
