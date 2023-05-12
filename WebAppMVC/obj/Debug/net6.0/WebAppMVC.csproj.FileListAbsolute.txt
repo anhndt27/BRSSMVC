@@ -296,3 +296,5 @@ C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC\bin\Debug\net6.0\System.Memo
 C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC\bin\Debug\net6.0\PagedList.dll
+C:\Users\Hi\Documents\Workspace\WebAppMVC\WebAppMVC\bin\Debug\net6.0\PagedList.Mvc.dll

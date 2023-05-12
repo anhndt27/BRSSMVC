@@ -51,7 +51,7 @@ app.Use(async (context, next) =>
 {
     await next();
 
-    if (context.Response.StatusCode != 200)
+    if (context.Response.StatusCode == 404)
     {
         context.Response.Redirect("/Home/Error");
         context.Response.ContentLength = 0;

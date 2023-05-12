@@ -4,58 +4,75 @@
     ViewData["Title"] = "UserManager";
 }
 
+
 <h1>UserManager</h1>
+
+<div>
+    <p>
+        <a class="btn btn-dark btn-sm" asp-action="Create">Create New</a>
+    </p>
+</div>
+@section Scripts{
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        });
+    </script>
+}
 
 
 <div class="raw">
 
-    <table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FirstName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.LastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateOfBirth)
-            </th>
-           @* <th>
+    <table id="myTable" class="table table-success table-striped">
+        <thead class="thead-table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateOfBirth)
+                </th>
+                @* <th>
                 @Html.DisplayNameFor(model => model.SlugImage)
-            </th>*@
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FirstName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateOfBirth)
-            </td>
-          @*  <td>
+                </th>*@
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateOfBirth)
+                    </td>
+                    @*  <td>
                 @Html.DisplayFor(modelItem => item.SlugImage)
-            </td>*@
-            <td>
-                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                </td>*@
+                    <td>
+                        <a class="btn btn-dark btn-sm" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a class="btn btn-dark btn-sm" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a class="btn btn-dark btn-sm" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
-<div>
-    <p>
-    <a class="btn btn-primary" asp-action="Create">Create New</a>
-</p>
 
-</div>
+
+
+
+
 

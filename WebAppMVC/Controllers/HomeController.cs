@@ -7,7 +7,7 @@ namespace WebAppMVC.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -20,8 +20,6 @@ namespace WebAppMVC.Controllers
 
         public IActionResult Privacy()
         {
-            List<int> list = new List<int>() { 1,2};
-            Console.WriteLine(list[3]);
             return View();
         }
 
